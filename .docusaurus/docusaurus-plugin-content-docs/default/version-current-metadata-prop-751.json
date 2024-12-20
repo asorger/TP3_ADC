@@ -10,14 +10,8 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
-        "type": "link",
-        "label": "Tutorial Intro",
-        "href": "/TP3_ADC/docs/intro",
-        "docId": "intro"
-      },
-      {
         "type": "category",
-        "label": "Tutorial - Basics",
+        "label": "Classes",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -58,7 +52,7 @@
             "docId": "tutorial-basics/congratulations"
           }
         ],
-        "href": "/TP3_ADC/docs/category/tutorial---basics"
+        "href": "/TP3_ADC/docs/category/classes"
       },
       {
         "type": "category",
@@ -80,14 +74,20 @@
           }
         ],
         "href": "/TP3_ADC/docs/category/tutorial---extras"
+      },
+      {
+        "type": "link",
+        "label": "Bem-vindo à Teca-Teca!",
+        "href": "/TP3_ADC/docs/intro",
+        "docId": "intro"
       }
     ]
   },
   "docs": {
     "intro": {
       "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "title": "Bem-vindo à Teca-Teca!",
+      "description": "A Teca-Teca é uma biblioteca digital projetada para fornecer um acesso fácil e eficiente a uma vasta coleção de conteúdos e recursos. Seja você um estudante, pesquisador ou entusiasta de conhecimento, aqui você encontrará o que precisa para expandir seus horizontes.",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

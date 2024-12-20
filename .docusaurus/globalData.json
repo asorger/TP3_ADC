@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/TP3_ADC/docs",
-          "mainDocId": "intro",
+          "mainDocId": "tutorial-basics/create-a-page",
           "docs": [
             {
               "id": "intro",
@@ -56,8 +56,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/TP3_ADC/docs/category/tutorial---basics",
+              "id": "/category/classes",
+              "path": "/TP3_ADC/docs/category/classes",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -70,8 +70,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/TP3_ADC/docs/intro",
-                "label": "intro"
+                "path": "/TP3_ADC/docs/category/classes",
+                "label": "Classes"
               }
             }
           }

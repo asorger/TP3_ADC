@@ -99,11 +99,11 @@ export default [
   },
   {
     path: '/TP3_ADC/docs',
-    component: ComponentCreator('/TP3_ADC/docs', '4ed'),
+    component: ComponentCreator('/TP3_ADC/docs', '558'),
     routes: [
       {
-        path: '/TP3_ADC/docs/category/tutorial---basics',
-        component: ComponentCreator('/TP3_ADC/docs/category/tutorial---basics', 'f5a'),
+        path: '/TP3_ADC/docs/category/classes',
+        component: ComponentCreator('/TP3_ADC/docs/category/classes', '606'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

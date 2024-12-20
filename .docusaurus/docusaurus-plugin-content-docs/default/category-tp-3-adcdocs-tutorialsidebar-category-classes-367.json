@@ -1,8 +1,8 @@
 {
-  "title": "Tutorial - Basics",
+  "title": "Classes",
   "description": "5 minutes to learn the most important Docusaurus concepts.",
-  "slug": "/category/tutorial---basics",
-  "permalink": "/TP3_ADC/docs/category/tutorial---basics",
+  "slug": "/category/classes",
+  "permalink": "/TP3_ADC/docs/category/classes",
   "navigation": {
     "next": {
       "title": "Create a Page",
