@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Fácil de Integrar',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default, // Você pode trocar para a imagem que preferir
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        A Teca-Teca foi projetada para ser facilmente integrada aos seus projetos. Com uma instalação simples, você pode começar a usar a biblioteca rapidamente.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Foco na Simplicidade',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default, // Troque conforme necessário
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        A Teca-Teca permite que você foque no que realmente importa: construir a sua aplicação. Ela cuida de detalhes técnicos e funcionalidades que economizam tempo.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Totalmente Personalizável',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default, // Troque para a imagem que preferir
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A Teca-Teca é construída sobre React, permitindo que você personalize facilmente sua estrutura e aproveite todos os benefícios do React em sua aplicação.
       </>
     ),
   },
