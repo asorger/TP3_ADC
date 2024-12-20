@@ -32,11 +32,14 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
               "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Translate your site",
-                "permalink": "/TP3_ADC/docs/tutorial-extras/translate-your-site"
+              "next": {
+                "title": "Tutorial - Basics",
+                "permalink": "/TP3_ADC/docs/category/tutorial---basics"
               }
             },
             {
@@ -139,8 +142,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Classes",
-                "permalink": "/TP3_ADC/docs/category/classes"
+                "title": "Tutorial - Basics",
+                "permalink": "/TP3_ADC/docs/category/tutorial---basics"
               },
               "next": {
                 "title": "Create a Document",
@@ -249,10 +252,6 @@
               "previous": {
                 "title": "Manage Docs Versions",
                 "permalink": "/TP3_ADC/docs/tutorial-extras/manage-docs-versions"
-              },
-              "next": {
-                "title": "Bem-vindo à Teca-Teca!",
-                "permalink": "/TP3_ADC/docs/intro"
               }
             }
           ],
@@ -260,8 +259,12 @@
           "sidebars": {
             "tutorialSidebar": [
               {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
                 "type": "category",
-                "label": "Classes",
+                "label": "Tutorial - Basics",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -293,8 +296,8 @@
                 "link": {
                   "type": "generated-index",
                   "description": "5 minutes to learn the most important Docusaurus concepts.",
-                  "slug": "/category/classes",
-                  "permalink": "/TP3_ADC/docs/category/classes"
+                  "slug": "/category/tutorial---basics",
+                  "permalink": "/TP3_ADC/docs/category/tutorial---basics"
                 }
               },
               {
@@ -317,10 +320,6 @@
                   "slug": "/category/tutorial---extras",
                   "permalink": "/TP3_ADC/docs/category/tutorial---extras"
                 }
-              },
-              {
-                "type": "doc",
-                "id": "intro"
               }
             ]
           }

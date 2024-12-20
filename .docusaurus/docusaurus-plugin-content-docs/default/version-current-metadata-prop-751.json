@@ -10,8 +10,14 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
+        "type": "link",
+        "label": "Bem-vindo à Teca-Teca!",
+        "href": "/TP3_ADC/docs/intro",
+        "docId": "intro"
+      },
+      {
         "type": "category",
-        "label": "Classes",
+        "label": "Tutorial - Basics",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -52,7 +58,7 @@
             "docId": "tutorial-basics/congratulations"
           }
         ],
-        "href": "/TP3_ADC/docs/category/classes"
+        "href": "/TP3_ADC/docs/category/tutorial---basics"
       },
       {
         "type": "category",
@@ -74,12 +80,6 @@
           }
         ],
         "href": "/TP3_ADC/docs/category/tutorial---extras"
-      },
-      {
-        "type": "link",
-        "label": "Bem-vindo à Teca-Teca!",
-        "href": "/TP3_ADC/docs/intro",
-        "docId": "intro"
       }
     ]
   },
