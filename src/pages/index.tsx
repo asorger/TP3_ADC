@@ -8,17 +8,18 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
+  
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">
+      <div className="container text-center d-flex flex-column justify-content-center">
+        <h1 className="hero__title">{siteConfig.title}</h1> {/* Title has no animation */}
+        <p className="hero__subtitle">{/* Subtitle also has no animation */}
           Sua biblioteca ideal para integração fácil e recursos poderosos. 🚀
         </p>
-        <div className={styles.buttons}>
+        <div className={clsx(styles.buttons, 'd-flex justify-content-center')}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--lg button--rounded"
             to="/docs/intro">
             Comece com o Teca-Teca 📚
           </Link>
@@ -29,7 +30,7 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`Bem-vindo ao ${siteConfig.title}`}

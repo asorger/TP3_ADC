@@ -1,23 +1,87 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  padding: 4rem 0;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); 
+  background-size: 300% 300%; 
+  color: #fff;
+  padding: 50px 0;
+  border-radius: 10px;
+  height: 75vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   position: relative;
-  overflow: hidden;
+  animation: waveAnimation 5s ease-in-out infinite; 
+  transition: background 1s ease; 
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+@keyframes waveAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%; 
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.heroSubtitle {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+
+}
+
 .buttons {
+  margin-top: 20px;
+}
+
+.button--rounded {
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+}
+
+.button--secondary {
+  background-color: #00bfae;
+  color: #fff;
+  border: none;
+}
+
+.button--secondary:hover {
+  background-color: #009d88;
+  transform: scale(1.05);
+}
+
+.d-flex {
   display: flex;
-  align-items: center;
+}
+
+.justify-content-center {
   justify-content: center;
+}
+
+.main {
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.2rem;
+  }
 }
