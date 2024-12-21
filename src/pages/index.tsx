@@ -13,8 +13,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container text-center d-flex flex-column justify-content-center">
-        <h1 className="hero__title">{siteConfig.title}</h1> {/* Title has no animation */}
-        <p className="hero__subtitle">{/* Subtitle also has no animation */}
+        <h1 className="hero__title">{siteConfig.title}</h1>
+        <p className="hero__subtitle">
           Sua biblioteca ideal para integração fácil e recursos poderosos. 🚀
         </p>
         <div className={clsx(styles.buttons, 'd-flex justify-content-center')}>
