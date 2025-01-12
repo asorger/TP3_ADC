@@ -66,6 +66,11 @@ export default {
           "position": "left"
         },
         {
+          "to": "/sobre",
+          "label": "Sobre",
+          "position": "left"
+        },
+        {
           "href": "https://github.com/facebook/docusaurus",
           "label": "GitHub",
           "position": "right"

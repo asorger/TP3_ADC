@@ -14,4 +14,4 @@ A biblioteca foi fundada em 2024 por um grupo de profissionais apaixonados pela 
 
 Nossa equipe é composta por 3 estudantes apaixonado por leitura sempre prontos para ajudar e fornecer o melhor suporte possível para quem visita a nossa biblioteca.
 
-![alt text](image.png)
+![alt text](../../static/img/tecatecaguys.png)
