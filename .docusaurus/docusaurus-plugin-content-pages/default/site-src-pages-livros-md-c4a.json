@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/TP3_ADC/livros",
+  "source": "@site/src/pages/livros.md",
+  "title": "Catálogo de Livros",
+  "description": "Aqui estão os livros disponíveis na nossa biblioteca:",
+  "frontMatter": {
+    "title": "Catálogo de Livros"
+  }
+}

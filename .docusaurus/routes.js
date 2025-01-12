@@ -4,102 +4,107 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/TP3_ADC/__docusaurus/debug',
-    component: ComponentCreator('/TP3_ADC/__docusaurus/debug', '214'),
+    component: ComponentCreator('/TP3_ADC/__docusaurus/debug', '7b8'),
     exact: true
   },
   {
     path: '/TP3_ADC/__docusaurus/debug/config',
-    component: ComponentCreator('/TP3_ADC/__docusaurus/debug/config', '876'),
+    component: ComponentCreator('/TP3_ADC/__docusaurus/debug/config', '71c'),
     exact: true
   },
   {
     path: '/TP3_ADC/__docusaurus/debug/content',
-    component: ComponentCreator('/TP3_ADC/__docusaurus/debug/content', '45d'),
+    component: ComponentCreator('/TP3_ADC/__docusaurus/debug/content', '078'),
     exact: true
   },
   {
     path: '/TP3_ADC/__docusaurus/debug/globalData',
-    component: ComponentCreator('/TP3_ADC/__docusaurus/debug/globalData', '57d'),
+    component: ComponentCreator('/TP3_ADC/__docusaurus/debug/globalData', '81f'),
     exact: true
   },
   {
     path: '/TP3_ADC/__docusaurus/debug/metadata',
-    component: ComponentCreator('/TP3_ADC/__docusaurus/debug/metadata', '705'),
+    component: ComponentCreator('/TP3_ADC/__docusaurus/debug/metadata', '180'),
     exact: true
   },
   {
     path: '/TP3_ADC/__docusaurus/debug/registry',
-    component: ComponentCreator('/TP3_ADC/__docusaurus/debug/registry', '92c'),
+    component: ComponentCreator('/TP3_ADC/__docusaurus/debug/registry', 'a27'),
     exact: true
   },
   {
     path: '/TP3_ADC/__docusaurus/debug/routes',
-    component: ComponentCreator('/TP3_ADC/__docusaurus/debug/routes', '205'),
+    component: ComponentCreator('/TP3_ADC/__docusaurus/debug/routes', 'c8a'),
     exact: true
   },
   {
     path: '/TP3_ADC/blog',
-    component: ComponentCreator('/TP3_ADC/blog', '470'),
+    component: ComponentCreator('/TP3_ADC/blog', 'ad3'),
     exact: true
   },
   {
     path: '/TP3_ADC/blog/archive',
-    component: ComponentCreator('/TP3_ADC/blog/archive', '7aa'),
+    component: ComponentCreator('/TP3_ADC/blog/archive', '011'),
     exact: true
   },
   {
     path: '/TP3_ADC/blog/first-blog-post',
-    component: ComponentCreator('/TP3_ADC/blog/first-blog-post', 'fda'),
+    component: ComponentCreator('/TP3_ADC/blog/first-blog-post', '9bc'),
     exact: true
   },
   {
     path: '/TP3_ADC/blog/long-blog-post',
-    component: ComponentCreator('/TP3_ADC/blog/long-blog-post', 'c92'),
+    component: ComponentCreator('/TP3_ADC/blog/long-blog-post', '53e'),
     exact: true
   },
   {
     path: '/TP3_ADC/blog/mdx-blog-post',
-    component: ComponentCreator('/TP3_ADC/blog/mdx-blog-post', 'a68'),
+    component: ComponentCreator('/TP3_ADC/blog/mdx-blog-post', '833'),
     exact: true
   },
   {
     path: '/TP3_ADC/blog/tags',
-    component: ComponentCreator('/TP3_ADC/blog/tags', 'ca1'),
+    component: ComponentCreator('/TP3_ADC/blog/tags', '47a'),
     exact: true
   },
   {
     path: '/TP3_ADC/blog/tags/docusaurus',
-    component: ComponentCreator('/TP3_ADC/blog/tags/docusaurus', 'd2c'),
+    component: ComponentCreator('/TP3_ADC/blog/tags/docusaurus', '0a6'),
     exact: true
   },
   {
     path: '/TP3_ADC/blog/tags/facebook',
-    component: ComponentCreator('/TP3_ADC/blog/tags/facebook', 'bc4'),
+    component: ComponentCreator('/TP3_ADC/blog/tags/facebook', '2a7'),
     exact: true
   },
   {
     path: '/TP3_ADC/blog/tags/hello',
-    component: ComponentCreator('/TP3_ADC/blog/tags/hello', 'b54'),
+    component: ComponentCreator('/TP3_ADC/blog/tags/hello', '6c6'),
     exact: true
   },
   {
     path: '/TP3_ADC/blog/tags/hola',
-    component: ComponentCreator('/TP3_ADC/blog/tags/hola', '39f'),
+    component: ComponentCreator('/TP3_ADC/blog/tags/hola', '46b'),
     exact: true
   },
   {
     path: '/TP3_ADC/blog/welcome',
-    component: ComponentCreator('/TP3_ADC/blog/welcome', '11b'),
+    component: ComponentCreator('/TP3_ADC/blog/welcome', '122'),
+    exact: true
+  },
+  {
+    path: '/TP3_ADC/livros',
+    component: ComponentCreator('/TP3_ADC/livros', '5c6'),
     exact: true
   },
   {
     path: '/TP3_ADC/markdown-page',
-    component: ComponentCreator('/TP3_ADC/markdown-page', '275'),
+    component: ComponentCreator('/TP3_ADC/markdown-page', '74c'),
     exact: true
   },
   {
     path: '/TP3_ADC/docs',
-    component: ComponentCreator('/TP3_ADC/docs', '4ed'),
+    component: ComponentCreator('/TP3_ADC/docs', 'a3f'),
     routes: [
       {
         path: '/TP3_ADC/docs/category/tutorial---basics',
@@ -171,7 +176,7 @@ export default [
   },
   {
     path: '/TP3_ADC/',
-    component: ComponentCreator('/TP3_ADC/', 'c98'),
+    component: ComponentCreator('/TP3_ADC/', 'e69'),
     exact: true
   },
   {

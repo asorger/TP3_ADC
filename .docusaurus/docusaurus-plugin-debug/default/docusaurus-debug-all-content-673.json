@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/pt/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\NOX\\Desktop\\ADCuniversidade\\tp3\\TP3_ADC\\sidebars.js",
-          "contentPath": "C:\\Users\\NOX\\Desktop\\ADCuniversidade\\tp3\\TP3_ADC\\docs",
-          "contentPathLocalized": "C:\\Users\\NOX\\Desktop\\ADCuniversidade\\tp3\\TP3_ADC\\i18n\\pt\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\Users\\admin\\OneDrive - Universidade do Algarve\\Ambiente de Trabalho\\ADC\\TP3_ADC TP\\TP3_ADC\\sidebars.js",
+          "contentPath": "C:\\Users\\admin\\OneDrive - Universidade do Algarve\\Ambiente de Trabalho\\ADC\\TP3_ADC TP\\TP3_ADC\\docs",
+          "contentPathLocalized": "C:\\Users\\admin\\OneDrive - Universidade do Algarve\\Ambiente de Trabalho\\ADC\\TP3_ADC TP\\TP3_ADC\\i18n\\pt\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "intro",
@@ -676,6 +676,16 @@
         "type": "jsx",
         "permalink": "/TP3_ADC/",
         "source": "@site/src/pages/index.tsx"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/TP3_ADC/livros",
+        "source": "@site/src/pages/livros.md",
+        "title": "Catálogo de Livros",
+        "description": "Aqui estão os livros disponíveis na nossa biblioteca:",
+        "frontMatter": {
+          "title": "Catálogo de Livros"
+        }
       },
       {
         "type": "mdx",

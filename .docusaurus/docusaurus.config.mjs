@@ -27,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\NOX\\Desktop\\ADCuniversidade\\tp3\\TP3_ADC\\sidebars.js",
+          "sidebarPath": "C:\\Users\\admin\\OneDrive - Universidade do Algarve\\Ambiente de Trabalho\\ADC\\TP3_ADC TP\\TP3_ADC\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -35,7 +35,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "C:\\Users\\NOX\\Desktop\\ADCuniversidade\\tp3\\TP3_ADC\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\admin\\OneDrive - Universidade do Algarve\\Ambiente de Trabalho\\ADC\\TP3_ADC TP\\TP3_ADC\\src\\css\\custom.css"
         }
       }
     ]
@@ -111,7 +111,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2024 Biblioteca Teca-Teca, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Biblioteca Teca-Teca, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {
