@@ -103,6 +103,11 @@ export default [
     exact: true
   },
   {
+    path: '/TP3_ADC/sobre',
+    component: ComponentCreator('/TP3_ADC/sobre', '7ea'),
+    exact: true
+  },
+  {
     path: '/TP3_ADC/docs',
     component: ComponentCreator('/TP3_ADC/docs', 'a3f'),
     routes: [

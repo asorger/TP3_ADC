@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/TP3_ADC/sobre",
+  "source": "@site/src/pages/sobre.md",
+  "title": "Sobre a Biblioteca Teca-Teca",
+  "description": "A Biblioteca Teca-Teca é um lugar dedicado à disseminação do conhecimento e ao prazer da leitura. Nosso objetivo é fornecer acesso a recursos valiosos para quem busca aprender mais sobre tecnologia, inovação e também para quem quer se aprofundar em histórias fascinantes que estimulam a imaginação e o pensamento crítico.",
+  "frontMatter": {}
+}
